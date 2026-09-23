@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Git helps me track every change.\n");
+    printf("Feature branch: learning Git step by step.\n");
     return 0;
 }
