@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Git helps me track every change.\n");
+    printf("Main branch: version control keeps changes traceable.\n");
     return 0;
 }
