@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("Main branch: version control keeps changes traceable.\n");
-    printf("Feature branch: learning Git step by step.\n");
+    printf("114514\n");
+    printf("Hello, world!\n");
     return 0;
 }

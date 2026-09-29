@@ -18,13 +18,10 @@
 
 ### 1. Commit Message 规范
 
-[《Commit message 和 Change log 编写指南》](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)介绍了规范提交信息的作用和常见格式。清楚的提交信息便于浏览历史、查找某类修改，并可用于自动生成 Change Log。文中介绍的格式由 Header、Body 和 Footer 组成，其中 Header 包括 `type`、可选的 `scope` 和简短的 `subject`。本次实验的提交信息使用了 `feat`、`chore` 和 `merge` 等前缀，使每次修改的目的更容易辨认。
+[《Commit message 和 Change log 编写指南》]介绍了规范提交信息的作用和常见格式。清楚的提交信息便于浏览历史、查找某类修改，并可用于自动生成 Change Log。文中介绍的格式由 Header、Body 和 Footer 组成，其中 Header 包括 `type`、可选的 `scope` 和简短的 `subject`。本次实验的提交信息使用了 `feat`、`chore` 和 `merge` 等前缀，使每次修改的目的更容易辨认。
 
-### 2. 语义化版本
 
-[《语义化版本 2.0.0》](https://semver.org/lang/zh-CN/)规定版本号采用“主版本号.次版本号.修订号”的形式。修复兼容问题时增加修订号，增加向下兼容功能时增加次版本号，出现不兼容修改时增加主版本号。它还规定了先行版本和构建元数据的写法。统一的版本规则可以让使用者从版本号判断一次更新的影响。
-
-### 3. 为什么要学习 Git
+### 2. 为什么要学习 Git
 
 Git 可以保存项目的修改历史，在程序出现问题时帮助定位和恢复旧版本。分支让不同功能可以并行开发，合并机制则帮助整理不同分支上的成果。规范的提交记录和版本号还能让协作者了解修改原因及软件发布情况。即使是个人项目，Git 也比反复复制文件更清楚、更可靠。
 
